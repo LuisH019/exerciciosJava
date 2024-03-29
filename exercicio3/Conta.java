@@ -50,7 +50,7 @@ public class Conta {
 	}
 	
 	public boolean verificarConta(int numeroComparar) {
-		if (numeroComparar == getNumeroConta()) {
+		if (numeroComparar == this.numeroConta) {
 			return true;
 		}
 		else {
